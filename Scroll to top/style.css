@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 75vh;
+    display: flex;
+    /* Here; display, justify-content and align-items is used to center the text inside section */
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.section1{
+    background-color: #f0932b;
+}
+
+.section2{
+    background-color: #eb4d4b;
+}
+
+.section3{
+    background-color: #7ed6df;
+}
+
+.section4{
+    background-color: #22a6b3;
+}
+
+.to-top{
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* Here; display, justify-content and align-items is used to center the text inside section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
