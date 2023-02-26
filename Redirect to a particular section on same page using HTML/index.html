@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1efab1d2a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Redirect to a particular section using HTML on same page</title>
+</head>
+<!-- Here, i referred this article: https://stackoverflow.com/questions/30458037/how-to-redirect-to-a-particular-section-of-a-page-in-html
+    
+https://www.geeksforgeeks.org/how-to-redirect-to-a-particular-section-of-a-page-using-html-or-jquery/ -->
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Redirection using href and id -->
+                <!-- Here, in href we are using the same id of the part where we want to get redirected -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h3>Home part</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusantium eos sequi, magni qui autem nobis, non sit, alias inventore officiis provident veritatis ullam. Soluta harum similique esse tenetur accusamus quia assumenda, excepturi a repellendus quisquam dignissimos facere quaerat voluptatibus qui corporis corrupti pariatur provident necessitatibus? Quibusdam doloremque voluptate ratione labore quaerat dignissimos natus autem incidunt porro! Perferendis cupiditate maiores tenetur minima repellat pariatur, iure sint dolorem rem consequuntur recusandae, consectetur, aperiam animi aut sit? Repellendus, nostrum nisi debitis sed soluta necessitatibus expedita. Architecto nesciunt hic blanditiis ratione itaque magnam harum eos magni natus aperiam iusto, modi in ipsa tempore quam quia ipsum cum aut ea! Aperiam, tenetur quas labore numquam praesentium necessitatibus consequatur commodi beatae consequuntur non reprehenderit veniam nesciunt molestias incidunt quis quidem omnis perspiciatis libero accusamus provident nobis vel?</p>
+        </section>
+
+        <section id="about">
+            <h3>About us part</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusantium eos sequi, magni qui autem nobis, non sit, alias inventore officiis provident veritatis ullam. Soluta harum similique esse tenetur accusamus quia assumenda, excepturi a repellendus quisquam dignissimos facere quaerat voluptatibus qui corporis corrupti pariatur provident necessitatibus? Quibusdam doloremque voluptate ratione labore quaerat dignissimos natus autem incidunt porro! Perferendis cupiditate maiores tenetur minima repellat pariatur, iure sint dolorem rem consequuntur recusandae, consectetur, aperiam animi aut sit? Repellendus, nostrum nisi debitis sed soluta necessitatibus expedita. Architecto nesciunt hic blanditiis ratione itaque magnam harum eos magni natus aperiam iusto, modi in ipsa tempore quam quia ipsum cum aut ea! Aperiam, tenetur quas labore numquam praesentium necessitatibus consequatur commodi beatae consequuntur non reprehenderit veniam nesciunt molestias incidunt quis quidem omnis perspiciatis libero accusamus provident nobis vel?</p>
+        </section>
+
+        <section id="services">
+            <h3>Services part</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusantium eos sequi, magni qui autem nobis, non sit, alias inventore officiis provident veritatis ullam. Soluta harum similique esse tenetur accusamus quia assumenda, excepturi a repellendus quisquam dignissimos facere quaerat voluptatibus qui corporis corrupti pariatur provident necessitatibus? Quibusdam doloremque voluptate ratione labore quaerat dignissimos natus autem incidunt porro! Perferendis cupiditate maiores tenetur minima repellat pariatur, iure sint dolorem rem consequuntur recusandae, consectetur, aperiam animi aut sit? Repellendus, nostrum nisi debitis sed soluta necessitatibus expedita. Architecto nesciunt hic blanditiis ratione itaque magnam harum eos magni natus aperiam iusto, modi in ipsa tempore quam quia ipsum cum aut ea! Aperiam, tenetur quas labore numquam praesentium necessitatibus consequatur commodi beatae consequuntur non reprehenderit veniam nesciunt molestias incidunt quis quidem omnis perspiciatis libero accusamus provident nobis vel?</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact form</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores accusantium eos sequi, magni qui autem nobis, non sit, alias inventore officiis provident veritatis ullam. Soluta harum similique esse tenetur accusamus quia assumenda, excepturi a repellendus quisquam dignissimos facere quaerat voluptatibus qui corporis corrupti pariatur provident necessitatibus? Quibusdam doloremque voluptate ratione labore quaerat dignissimos natus autem incidunt porro! Perferendis cupiditate maiores tenetur minima repellat pariatur, iure sint dolorem rem consequuntur recusandae, consectetur, aperiam animi aut sit? Repellendus, nostrum nisi debitis sed soluta necessitatibus expedita. Architecto nesciunt hic blanditiis ratione itaque magnam harum eos magni natus aperiam iusto, modi in ipsa tempore quam quia ipsum cum aut ea! Aperiam, tenetur quas labore numquam praesentium necessitatibus consequatur commodi beatae consequuntur non reprehenderit veniam nesciunt molestias incidunt quis quidem omnis perspiciatis libero accusamus provident nobis vel?</p>
+        </section>
+
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
