@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+
+li{
+    padding: 15px 45px;
+    list-style: none;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section{
+    height: 80vh;
+    text-align: center;
+}
+
+section h3{
+    height: 40px;
+    background-color: gold;
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+
+section p{
+    height: 250px;
+    width: 600px;
+    box-sizing: border-box;
+    margin: 55px auto;
+    padding: 8px 0;
+    border: 4px solid white;
+}
+
+#home{
+    background-color:cornflowerblue
+}
+
+#about{
+    background-color: cadetblue;
+}
+
+#services{
+    background-color: chocolate;
+}
+
+#contact{
+    background-color: crimson;
+}
+
+.to-top{
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* Here; display, justify-content and align-items is used to center the text inside section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
