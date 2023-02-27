@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Calculator</title>
+</head>
+
+<!-- # For this I referred tutorial : https://youtu.be/oI1KZKs1Kj4  -->
+
+<body>
+    <!-- <h1 class="text-center">Calculator using HTML, CSS and Js</h1> -->
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="output-screen" placeholder="0">
+            <button onClick="Clear()">Cl</button>
+            <button onClick="Del()">DEL</button>
+            <button onClick="display('%')">%</button>
+            <button onClick="display('/')">/</button>
+
+            <button onClick="display('7')">7</button>
+            <button onClick="display('8')">8</button>
+            <button onClick="display('9')">9</button>
+            <button onClick="display('*')">*</button>
+
+            <button onClick="display('4')">4</button>
+            <button onClick="display('5')">5</button>
+            <button onClick="display('6')">6</button>
+            <button onClick="display('-')">-</button>
+
+            <button onClick="display('1')">1</button>
+            <button onClick="display('2')">2</button>
+            <button onClick="display('3')">3</button>
+            <button onClick="display('+')">+</button>
+
+            <button onClick="display('.')">.</button>
+            <button onClick="display('0')">0</button>
+            <button onClick="Calculate()" class="equal">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
